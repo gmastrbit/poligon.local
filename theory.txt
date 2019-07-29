@@ -1,0 +1,13 @@
+.env
+    APP_ENV=local (локальне середовище)
+    APP_DEBUG=true (дебаг режим)
+
+Міграції для таблиць
+Моделі для зв'язування фреймворку з БД
+
+Створення папки Models, тому що Тейлор не продумав де зберігати моделі проекту
+
+Створення моделей BlogCategory i BlogPost за допомогою artisan + міграції
+    php artisan make:model Models/BlogCategory -m
+
+
